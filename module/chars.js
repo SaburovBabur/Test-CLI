@@ -1,3 +1,3 @@
-const firstName = 'Babur'
-
-export { firstName }
+export const firstName = {
+    firstName: 'Babur',
+}
