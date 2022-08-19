@@ -2,9 +2,17 @@
     "name": "nodejs",
     "version": "1.0.0",
     "description": "",
-    "main": "app.js",
     "type": "module",
+    "main": "weather.js",
+    "bin": {
+        "weather": "./weather.js"
+    },
     "scripts": {},
     "author": "Babur",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "chalk": "^5.0.1",
+        "yargs": "^17.5.1"
+    }
 }
